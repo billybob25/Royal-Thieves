@@ -1,4 +1,3 @@
-package com.example.sampath.myapplication;
 
 import org.junit.Test;
 
