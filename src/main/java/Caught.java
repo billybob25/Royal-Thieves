@@ -1,4 +1,3 @@
-package com.example.sampath.myapplication;
 import android.support.v7.app.AppCompatActivity;
 import android.app.ApplicationErrorReport;
 import android.content.Intent;
