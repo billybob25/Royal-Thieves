@@ -4,27 +4,38 @@
     android:layout_height="match_parent"
     android:weightSum="1">
 
-    <TextView
-        android:id="@+id/textView"
+    <EditText
+        android:id="@+id/editText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_weight="0.22"
-        android:text="Game code is:"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="No. of Players joined:"
         android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
 
-    <TextView
-        android:id="@+id/textView2"
+    <EditText
+        android:id="@+id/editText2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_weight="0.22"
-        android:text="Select No. of games:"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name of players:"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.17"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Code:"
         android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_weight="0.22"
-        android:text="Next"
+        android:text="Start Game"
         android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
 </LinearLayout>

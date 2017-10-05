@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.aasish.myapplication">
+    package="com.example.sampath.myapplication">
 
     <application
         android:allowBackup="true"
@@ -16,15 +16,19 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".SecondScreen">
 
-
-        </activity>
-        <activity android:name=".EnterGame">
-
+        <activity android:name=".Gamecode">
+            </activity>>
+        <activity android:name=".Startgame1">
 
         </activity>
-        <activity android:name=".FirstRound">
+        <activity android:name=".Escape">
+
+        </activity>
+        <activity android:name=".Caught">
+
+        </activity>
+        <activity android:name=".Results">
 
         </activity>
     </application>
