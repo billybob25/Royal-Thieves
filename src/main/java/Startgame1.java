@@ -12,7 +12,6 @@ import android.widget.Button;
 import com.example.sampath.myapplication.R;
 
 
-
 public class Startgame1 extends AppCompatActivity {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
