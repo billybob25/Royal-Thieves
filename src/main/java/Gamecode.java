@@ -1,5 +1,3 @@
-package com.example.sampath.myapplication;
-
 import android.app.ApplicationErrorReport;
 import android.content.Intent;
 import android.nfc.Tag;
@@ -10,9 +8,7 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 
-/**
- * Created by welcome on 10/4/17.
- */
+
 
 public class Gamecode extends AppCompatActivity {
     @Override
